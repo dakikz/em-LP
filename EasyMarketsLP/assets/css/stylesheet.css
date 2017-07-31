@@ -1,0 +1,525 @@
+@font-face {
+	font-family: 'Roboto';
+    src: url('../font/Roboto-Light.ttf');
+    src: url('../font/Roboto-Bold.ttf');
+    src: url('../font/Roboto-Thin.ttf');
+    src: url('../font/Roboto-Regular.ttf');
+}
+
+body{
+	font-family: 'Roboto', sans-serif; 	
+}
+
+.form-area button:hover{
+	background: #F5A545;
+}
+
+.form-horizontal .has-feedback .form-control-feedback{
+	right: 30px;
+}
+
+.advantages button:hover{
+	background: #F5A545;
+}
+
+.hero{
+	background-color: #84AA55;
+	background-image: url('../images/map.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+	padding-bottom: 25px;
+}
+
+.nav-bar,.hero-content{
+	max-width: 900px;
+}
+
+.nav-bar{
+	padding-top: 3%;
+	padding-bottom: 40px;
+	vertical-align: middle;
+}
+
+.hero p{
+	color: #ffffff;
+}
+
+.top-logo img{
+	float: left;
+	max-width: 300px;
+}
+
+.top-social{
+	float: right;
+}
+
+.top-social a{
+	padding-right: 10px;
+	
+}
+
+.top-social a:hover{
+	text-decoration: none;
+	opacity: 0.4;
+}
+
+
+.hero-content,{
+	text-align: left;
+}
+	
+.left-hero, .right-hero{
+	padding: 0;
+}
+
+.left-hero h1{
+	color: #ffffff;
+	font-weight: 600;
+	line-height: 50px;
+	font-size: 45px;
+	padding-bottom: 10px
+}
+
+.left-hero p{
+	font-size: 20px;
+	font-weight: 200;
+	padding-bottom: 20px;
+}
+
+.left-hero .bold{
+	font-weight: 600;
+}
+
+.left-hero .tick-list img{
+	width: 25px;
+}
+
+.tick-list .tick{
+	width: 35px;
+	padding-bottom: 10px;
+}
+
+.left-hero .tick-list table{
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.no-of-users{
+	padding-top: 40px;
+}
+
+.users-pc{
+	display: block;
+}
+
+.users-mob{
+	display: none;
+}
+
+.left-hero .no-of-users img{
+	display: inline;
+	width: 50px;
+}
+
+.left-hero .no-of-users p{
+ 	display: inline;
+ 	vertical-align: top;
+ 	font-size: 60px;
+ 	font-weight: 200;
+ 	text-shadow: 2px 2px #646464;
+}
+
+.left-hero .no-of-users span{
+	position: relative;
+	top: -10px;
+ 	font-size: 13px;
+ 	color: #ffffff;
+ 	text-shadow: 2px 2px #646464;
+}
+
+.right-hero{
+	padding-left: 120px;
+}
+
+.right-hero h2{
+	margin-left: -15px;
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase; 
+	text-align: left;
+}
+
+.right-hero .bold{
+ 	font-weight: 600;
+}
+
+.free-registration{
+	width: 250px;
+	text-align: center;
+}
+
+form .field{
+	width: 100%;
+	margin-bottom: 10px;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.form-control{
+	border-radius: 0;
+	width: 250px;
+
+}
+
+.countries{
+	color: #959595;
+}
+
+.form-area .checkbox{
+	font-size: 10px;
+	color: #ffffff;
+	width: 250px;
+	text-align: left;
+}
+
+.checkbox input[type=checkbox]{
+	margin-left: 0;
+	-webkit-appearance: none;
+	background-color: none;
+	border: 1px solid #cacece;
+	padding: 7px;
+	border-radius: 0;
+	display: inline-block;
+	margin-left: -15px;
+}
+
+input[type="checkbox"]:checked {
+    background: green;
+}
+input[type="checkbox"]:checked:after {
+    /* Heres your symbol replacement - this is a tick in Unicode. */
+    content: "\2713";
+    color: #fff;
+    /* The following positions my tick in the center, 
+     * but you could just overlay the entire box
+     * with a full after element with a background if you want to */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    /*
+     * If you want to fully change the check appearance, use the following:
+     * content: " ";
+     * width: 100%;
+     * height: 100%;
+     * background: blue;
+     * top: 0;
+     * left: 0;
+     */
+}
+
+.checkbox a{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.form-area button{
+	background: #F7941D;
+	width: 250px;
+	height: 50px;
+	color: #ffffff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 4px solid #EA8D1D;
+	padding-top: 4px;
+	margin-left: -30px;
+}
+
+.form-area .risk-warning{
+	color: #ffffff;
+	font-size: 10px;
+	margin-left: -15px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.telephone{
+
+}
+
+.form-control.tel-code{
+	width: 50px;
+	float: left;
+}
+
+.form-control.tel{
+	width: 180px;
+	float: left;
+	margin-left: 13px;
+}
+
+.form-area table{
+	width: 100%;
+	text-align: center;
+	margin-left: -7px;
+}
+
+.form-area table img{
+	max-width: 40px;
+	margin-right: 15px;
+}
+
+.form-area .table1{
+	margin-bottom: 20px;
+}
+
+.devices{
+	background: #ffffff;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.devices h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700px;
+	margin: 0;
+	color: #333;
+	padding-bottom: 20px;
+}
+
+.devices h3{
+	font-size: 20px;
+	color: #367B9E;
+	padding-bottom: 10px;
+}
+
+.devices p{
+	font-size: 14px;
+	padding-right: 15px;
+	height: 60px;
+}
+
+.deal-cancellation{
+	min-height: 400px;
+	background: url('../images/mobile.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.deal-cancellation h1{
+	font-size: 35px;
+}
+
+.deal-cancellation .p1{
+	font-size: 16px;
+	max-width: 400px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+.deal-cancellation img{
+	width: 100px;
+	padding-bottom: 30px;
+}
+
+.deal-cancellation img:hover{
+	opacity: 0.4;
+}
+
+.deal-cancellation .p2{
+	font-size: 16px;
+}
+
+.deal-cancellation h2{
+	margin: 0;
+}
+
+.deal-cancellation span{
+	color: #8DBC4C;
+}
+
+.advantages{
+	text-align: center;
+	background: #ffffff;
+	padding-top: 30px; 
+	padding-bottom: 40px;
+}
+
+.advantages .icons-area{
+	padding-top: 40px;
+}
+
+.advantages .icons-area h2{
+	font-size: 15px;
+	font-weight: 700px;
+	color: #333;
+}
+
+.advantages h1{
+	font-weight: 400;
+}
+
+.advantages p{
+	max-width: 250px;
+	margin: auto;
+	font-size: 14px;
+	padding-bottom: 30px;
+}
+
+.advantages button{
+	background: #F7941D;
+	width: 250px;
+	height: 50px;
+	color: #ffffff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 4px solid #EA8D1D;
+	padding-top: 4px;
+	margin-top: 30px;
+}
+
+footer{
+	border-top: 1px solid grey;
+	color: #666;
+}
+
+.footer h1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #333;
+	font-weight: 400;
+}
+
+.footer .risk-warning-bottom{
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+
+.footer p{
+	text-align: left;
+}
+
+.footer span{
+	background-image: url('../images/logo.png');
+	width: 10px;	
+}
+
+.footer .license{
+	color: #8DBC4C;
+}
+
+.footer .trademark{
+	font-size: 12px;
+	text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+	.right-hero{
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.users-pc{
+		display: none;
+	}
+	.users-mob{
+		display: block;
+	}
+
+	.top-logo img{
+		float: none;
+		text-align:center;
+		margin: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.top-social{
+		float: none;
+		text-align: center;
+	}
+	.hero{
+		height: 100%;
+		padding-bottom: 40px;
+	}
+	.hero-content{
+		text-align: center;
+		display: table;
+  		margin: 0 auto;
+	}
+	.no-of-users{
+		text-align: center;
+		display: table;
+  		margin: 0 auto;
+	}
+	.tick-list{
+		text-align: left;
+		display: table;
+  		margin: 0 auto;
+	}
+
+	.right-hero{
+		text-align: center;
+		display: table;
+  		margin: 0 auto;
+	}
+
+	.free-registration h2{
+		text-align: center;
+	}
+
+	.free-registration button{
+		margin: 0;
+	}
+
+	.form-control{
+		width: 280px;
+	}
+
+	.form-control.tel{
+		width: 210px;
+	}
+
+	.devices{
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.deal-cancellation{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	footer{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	footer h1{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.left-hero h1{
+		font-size: 30px;
+		line-height: 35px;
+	}
+}
